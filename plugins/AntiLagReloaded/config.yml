@@ -1,0 +1,41 @@
+# ------------------------------ #
+#
+#  AntiLag Reloaded 0.4
+#  Silent, effective anti lag plugin
+#  Made by TheR4nger based on AntiLag plugin made by the only konsolas ( AAC developer )
+#
+# ------------------------------ #
+
+# Worlds to remove entities
+worlds:
+   - put_world_name_here
+   - factionsworld
+   - myamazingworld
+   - world
+   - world_nether
+   - world_the_end
+
+# Add the Prefix
+prefix: "&9[AntiLagReloaded] &r>&b "
+
+# Add the Countdown message
+countdown: 3
+countdown_message: "All dropped items will be removed in {time} seconds"
+countdown_over: "Removing..."
+
+# Delay between removals (ticks)
+countdown_cycle: 5000
+
+# Change the optimize message (when you do /optimize)
+optimize-message: '&e&lOPTIMIZING SERVER PERFORMANCE...'
+
+#No permission message
+No-Perm: '&c&oYou dont have permission to do that.'
+
+# Change the /trash chest message
+# Title cannot be longer than 32 characters
+# including color codes and spaces
+trash-chest-message: '&9&lAnti&b&lLag &1&lTrash'
+
+# Customize the chat message when you open the /trash
+trash-chat-message: '&4When you deposite items in the trash they disappear forever.'
